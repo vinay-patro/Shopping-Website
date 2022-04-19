@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+    margin-left: 2cm;
+}
+button:hover{
+    font-weight: bolder;
+            color: rgb(72, 75, 253);
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+        a{   background-color: rgb(238, 118, 118);
+                text-decoration: none;
+                font-size: 0.5cm;
+                padding: 14px 25px;
+                text-align: center;
+            }
+            a:hover{
+                font-weight: bolder;
+                color: rgb(72, 75, 253);
+                font-size: 0.6cm;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+             
+        .myid1{
+            height: 3cm;
+            background-color:rgb(104, 172, 250);
+            font-size: 1cm;
+            font-weight: 200;
+            color: aliceblue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-image: url("images/shopping\ basket.jpg");
+            background-repeat: no-repeat;
+            background-position-x: 1cm;
+            background-size: 100px 100px;
+        }
+        .myid3{
+            float: right;
+        }
+        .myid{
+            padding-left: 4cm;
+        }
+        .f{
+    background-color: aquamarine;
+    font-size: x-large;
+    color: rgb(250, 252, 251);
+    padding-left: 10cm;
+    
+    height: 3cm;
+    
+    
+}
+.c1{
+    font-size: medium;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 12cm;
+    width: 8cm;
+    background-image: url("images/forest.Jpg");
+    background-repeat: no-repeat;
+    color: yellowgreen;
+   
+    
+}
+.c2
+{
+    background-image: url("images/shopping\ mall.jpg");
+}
+.l1
+{
+    font-size: larger;
+    color: brown;
+}
+    </style>
+    
+</head>
+<body>
+    <header class="myid1"><div class="myid">ApNa BaZaR</div>
+    
+        <div class="myid3">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="#">CART</a>
+            <a href="signin.html">SIGN IN</a>
+            <a href="registration.html">SIGN UP</a></header>
+        </div>
+    <br/>
+    <div class="c2">
+<div Class="c1">
+    <form action="#" method="get">
+        <fieldset>
+            <legend class="l1"> <b> CUSTOMER DETAILS </b></legend>
+            
+  Customer  Name-<input type="text" name="first_name" autofocus required/>
+
+  <br/><br/> 
+  Customer phone-<input type="number" name="Phone no" required /> 
+  <br/><br/> 
+  Customer address-<input type="text" name="address" required/>
+  <br/><br/>     
+  
+  Create username-<input type="text" name="user name" required id="username1" onclick=validate()/>
+  <br/><br/>
+  Create password-<input type="password" name="password" required id="password1"/>
+
+</fieldset>
+<br/>
+<br/>
+<br/>
+<fieldset>
+    Select Items:
+    <br/>
+    <br/>
+    <select>
+        <option value="">SELECT APPLIANCES</option>
+        <option value="d1">HOME APPLIANCES</option>
+        <option value="d2">ELECTRONICS</option>
+        <option value="d3">FASHION</option>
+    </select>
+</fieldset>
+<br/>
+<br/>
+   <div  class="add-container"><button id="register">REGISTER</button></div>
+</div>
+</form>
+    <br/>
+    <br/>
+</div>
+  <footer><div class="f">
+    -- ALL THE RIGHTS ARE RESERVED --
+    </div></footer>
+  <script src="/js/script2.js"></script>
+</body>
+</html>
